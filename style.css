@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    display: flex;
+}
+span{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.sef{
+    padding-inline: 10px;
+
+}
+.part{
+    padding: 20px 10px;
+}
+.new{
+    margin-top: 400px;
+}
+.shift{
+    margin-top: 20px;
+}
+aside{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 10px 20px;
+    position: fixed;
+}
+main{
+    display: flex;
+    background-color: rgb(34, 32, 32);
+    flex-direction: row-reverse;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 0 200px;
+    position: relative;
+    top: 0;
+    left:200px;
+
+}
+
+.part-one{
+    display: flex;
+    align-items: center;
+}
+.part-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.space{
+    gap: 30px;
+}
+.rnd-img{
+    border-radius: 40%;
+}
+.edge{
+
+    border-radius: 7px;
+    border: 1px solid rgb(153, 145, 145);
+}
+.size{
+    padding-block: 20px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+.part:hover{
+    background-color: rgb(51, 48, 48);
+    padding: 10px 15px;
+    border-radius: 25px;
+
+}
+.set:hover{
+    font-size: larger;
+    font-weight: bolder;
+}
